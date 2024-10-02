@@ -235,7 +235,7 @@ local Converted = {
 	["_Button199"] = Instance.new("TextButton");
 	["_Button200"] = Instance.new("TextButton");
 	["_Button201"] = Instance.new("TextButton");
-	["_Cart  Spawner Part"] = Instance.new("Folder");
+	["_Cart Spawner Part"] = Instance.new("Folder");
 	["_Button202"] = Instance.new("TextButton");
 	["_Button203"] = Instance.new("TextButton");
 	["_Button204"] = Instance.new("TextButton");
@@ -3367,8 +3367,8 @@ Converted["_Button201"].ZIndex = 102
 Converted["_Button201"].Name = "Button"
 Converted["_Button201"].Parent = Converted["_Button191"]
 
-Converted["_Cart  Spawner Part"].Name = "Cart  Spawner Part"
-Converted["_Cart  Spawner Part"].Parent = Converted["_Placeholder"]
+Converted["_Cart Spawner Part"].Name = "Cart Spawner Part"
+Converted["_Cart Spawner Part"].Parent = Converted["_Placeholder"]
 
 Converted["_Button202"].Font = Enum.Font.Cartoon
 Converted["_Button202"].Text = "Spawn Position"
@@ -3383,7 +3383,7 @@ Converted["_Button202"].BorderSizePixel = 2
 Converted["_Button202"].Size = UDim2.new(0, 210, 0, 30)
 Converted["_Button202"].ZIndex = 102
 Converted["_Button202"].Name = "Button"
-Converted["_Button202"].Parent = Converted["_Cart  Spawner Part"]
+Converted["_Button202"].Parent = Converted["_Cart Spawner Part"]
 
 Converted["_Button203"].Font = Enum.Font.Cartoon
 Converted["_Button203"].Text = "Player Activated"
@@ -3398,7 +3398,7 @@ Converted["_Button203"].BorderSizePixel = 2
 Converted["_Button203"].Size = UDim2.new(0, 210, 0, 30)
 Converted["_Button203"].ZIndex = 102
 Converted["_Button203"].Name = "Button"
-Converted["_Button203"].Parent = Converted["_Cart  Spawner Part"]
+Converted["_Button203"].Parent = Converted["_Cart Spawner Part"]
 
 Converted["_Button204"].Font = Enum.Font.Cartoon
 Converted["_Button204"].Text = "Push Block Activated"
@@ -3413,7 +3413,7 @@ Converted["_Button204"].BorderSizePixel = 2
 Converted["_Button204"].Size = UDim2.new(0, 210, 0, 30)
 Converted["_Button204"].ZIndex = 102
 Converted["_Button204"].Name = "Button"
-Converted["_Button204"].Parent = Converted["_Cart  Spawner Part"]
+Converted["_Button204"].Parent = Converted["_Cart Spawner Part"]
 
 Converted["_Button205"].Font = Enum.Font.Cartoon
 Converted["_Button205"].Text = "Despawn Time"
@@ -3428,7 +3428,7 @@ Converted["_Button205"].BorderSizePixel = 2
 Converted["_Button205"].Size = UDim2.new(0, 210, 0, 30)
 Converted["_Button205"].ZIndex = 102
 Converted["_Button205"].Name = "Button"
-Converted["_Button205"].Parent = Converted["_Cart  Spawner Part"]
+Converted["_Button205"].Parent = Converted["_Cart Spawner Part"]
 
 Converted["_Button206"].Font = Enum.Font.Cartoon
 Converted["_Button206"].Text = "Max Speed"
@@ -3443,7 +3443,7 @@ Converted["_Button206"].BorderSizePixel = 2
 Converted["_Button206"].Size = UDim2.new(0, 210, 0, 30)
 Converted["_Button206"].ZIndex = 102
 Converted["_Button206"].Name = "Button"
-Converted["_Button206"].Parent = Converted["_Cart  Spawner Part"]
+Converted["_Button206"].Parent = Converted["_Cart Spawner Part"]
 
 Converted["_Button207"].Font = Enum.Font.Cartoon
 Converted["_Button207"].Text = "Cart Type"
@@ -3458,7 +3458,7 @@ Converted["_Button207"].BorderSizePixel = 2
 Converted["_Button207"].Size = UDim2.new(0, 210, 0, 30)
 Converted["_Button207"].ZIndex = 102
 Converted["_Button207"].Name = "Button"
-Converted["_Button207"].Parent = Converted["_Cart  Spawner Part"]
+Converted["_Button207"].Parent = Converted["_Cart Spawner Part"]
 
 local Coverted_1 = {
 	["_EffectsStorage"] = Instance.new("ScreenGui");
