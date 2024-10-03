@@ -5893,6 +5893,10 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 		if name == "InOut" then
 			name = "ShapeInOut"
 		end
+
+		if name == "Spread" then
+			name = "SpreadAngle"
+		end
 		
 		if name == "Style" then
 			name = "ShapeStyle"
