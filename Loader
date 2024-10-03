@@ -5942,6 +5942,12 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 			local args = string.split(values, ',')
 			origin = CFrame.new(table.unpack(args))
 		end
+
+		if fixed:sub(0, 1) == '{' then
+			local values = fixed:sub(2, last)
+			local args = string.split(values, ',')
+			origin = args
+		end
 		
 		if properties == "Texture ID" and _type == "Effects" or properties == "Image ID" and _type == "Effects" then
 			origin = "rbxthumb://type=Asset&id=" .. origin .. "&w=420&h=420"
