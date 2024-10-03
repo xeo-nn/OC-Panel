@@ -4243,7 +4243,7 @@ Converted_1["_Button42"].Name = "Button"
 Converted_1["_Button42"].Parent = Converted_1["_Particles"]
 
 Converted_1["_Button43"].Font = Enum.Font.Cartoon
-Converted_1["_Button43"].Text = "Accelration"
+Converted_1["_Button43"].Text = "Acceleration"
 Converted_1["_Button43"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted_1["_Button43"].TextScaled = true
 Converted_1["_Button43"].TextSize = 14
