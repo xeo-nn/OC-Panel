@@ -5483,9 +5483,10 @@ local function XEMYFDX_fake_script()
     end
 
 	local path = game.Players.LocalPlayer.PlayerGui.Edit.LocalScript
-	local events = game:GetService(BTrUMHWCZQDQlgvmPwhsnpCArtCHmmLNrEKmgpiZlWgcATFfChwnQOlFP({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events
-	
-	local panel = Converted2["_Panel"]
+	local events = game:GetService("ReplicatedStorage").Events
+
+	wait(10)
+	local panel = Converted["_Panel"]
 	local drag = panel.Drag
 	drag.Draggable = true
 	
