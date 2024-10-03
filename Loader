@@ -5971,7 +5971,7 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 				}
 			end
 			
-			if properties == "Size" or properties == "Squash" or properties == "Transparency" or properties == "Lifetime" or properties == "Rotation" or properties == "RotSpeed" or properties == "Speed" or properties == "Spread" then
+			if properties == "Size" or properties == "Squash" or properties == "Transparency" then
 				origin = NumberSequence.new{
 					NumberSequenceKeypoint.new(0, fixed),
 					NumberSequenceKeypoint.new(1, fixed)
