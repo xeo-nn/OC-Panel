@@ -5857,10 +5857,6 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 				name = "Color3"
 			end
 		end
-
-		if name == "Font" then
-			name = "FontFace"
-		end
 		
 		if name == "SurfaceColor" then
 			name = "SurfaceColor3"
