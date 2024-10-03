@@ -5861,6 +5861,10 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 		if name == "SurfaceColor" then
 			name = "SurfaceColor3"
 		end
+
+		if name == "MaxDistance" then
+			name = "MaxActivationDistance"
+		end
 		
 		if name == "KeyboardCode" then
 			name = "KeyboardKeyCode"
