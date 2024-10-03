@@ -5922,25 +5922,25 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 			local values = fixed:sub(8, last)
 			local args = string.split(values, ',')
 	
-			origin = Color3.fromRGB(args[1], args[2], args[3])
+			origin = Color3.fromRGB(table.unpack(args))
 		end
 		
 		if fixed:sub(1, 7) == "Vector3" then
 			local values = fixed:sub(9, last)
 			local args = string.split(values, ',')
-			origin = Vector3.new(args[1], args[2], args[3])
+			origin = Vector3.new(table.unpack(args))
 		end
 		
 		if fixed:sub(1, 7) == "Vector2" then
 			local values = fixed:sub(9, last)
 			local args = string.split(values, ',')
-			origin = Vector2.new(args[1], args[2])
+			origin = Vector2.new(table.unpack(args))
 		end
 		
 		if fixed:sub(1, 6) == "CFrame" then
 			local values = fixed:sub(8, last)
 			local args = string.split(values, ',')
-			origin = CFrame.new(args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12])
+			origin = CFrame.new(table.unpack(args))
 		end
 		
 		if properties == "Texture ID" and _type == "Effects" or properties == "Image ID" and _type == "Effects" then
@@ -5949,6 +5949,12 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 		
 		if properties == "Video" and _type == "Effects" then
 			origin = "rbxassetid://" .. fixed
+		end
+
+		if type == "Effects" then
+			if properties == "Lifetime" or properties == "Rotation" or properties == "Rot Speed" or properties == "Speed" or properties == "Spread" then
+				origin = {fixed, fixed}
+			end
 		end
 		
 		if effect == "particles" and _type == "Effects" then
