@@ -5956,12 +5956,6 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 		if properties == "Video" and _type == "Effects" then
 			origin = "rbxassetid://" .. fixed
 		end
-
-		if type == "Effects" then
-			if properties == "Lifetime" or properties == "Rotation" or properties == "Rot Speed" or properties == "Speed" or properties == "Spread" then
-				origin = NumberRange.new(origin, origin)
-			end
-		end
 		
 		if effect == "particles" and _type == "Effects" then
 			if properties == "Color" then
@@ -6006,6 +6000,15 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 			
 			if _type == "Effects" then
 				properties = properties:gsub("%s+", '')
+
+				if properties == "Lifetime" or properties == "Rotation" or properties == "Rot Speed" or properties == "Speed" then
+					origin = NumberRange.new(tostring(origin), tostring(origin))
+				end
+
+				if properties == "Spread" then
+					origin = {origin, origin}
+				end
+
 				warn(target, effect, convertEffect(properties, effect), origin)
 				events.EffectObject:InvokeServer(target, effect, convertEffect(properties, effect), origin)
 			end
