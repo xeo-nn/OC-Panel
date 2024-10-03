@@ -5947,7 +5947,7 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 			origin = "rbxthumb://type=Asset&id=" .. origin .. "&w=420&h=420"
 		end
 		
-		if properties == "Video" and _type == "Effects" or properties == "Font" and _type == "Effects" then
+		if properties == "Video" and _type == "Effects" then
 			origin = "rbxassetid://" .. fixed
 		end
 		
