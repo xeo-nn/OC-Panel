@@ -5959,7 +5959,7 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 
 		if type == "Effects" then
 			if properties == "Lifetime" or properties == "Rotation" or properties == "Rot Speed" or properties == "Speed" or properties == "Spread" then
-				origin = {fixed, fixed}
+				origin = {[1] = fixed, [2] = fixed}
 			end
 		end
 		
