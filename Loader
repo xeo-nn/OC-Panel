@@ -5468,10 +5468,11 @@ Coverted_2[schixwuPHAqtqHyvgWxIEwjYkVnNKxkkYOorjsKpAPbVaUJleyij({9975,7035,11340
 
 function BTrUMHWCZQDQlgvmPwhsnpCArtCHmmLNrEKmgpiZlWgcATFfChwnQOlFP(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/105)end return res end 
 
-local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.Main
+local function XEMYFDX_fake_script()
     local script = Instance.new(BTrUMHWCZQDQlgvmPwhsnpCArtCHmmLNrEKmgpiZlWgcATFfChwnQOlFP({7980,11655,10395,10185,11340,8715,10395,11970,11025,11760,12180}))
     script.Name = BTrUMHWCZQDQlgvmPwhsnpCArtCHmmLNrEKmgpiZlWgcATFfChwnQOlFP({8085,10185,11025,11550})
     script.Parent = Converted[BTrUMHWCZQDQlgvmPwhsnpCArtCHmmLNrEKmgpiZlWgcATFfChwnQOlFP({9975,8085,10185,11025,11550})]
+
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -5484,7 +5485,7 @@ local function XEMYFDX_fake_script() -- Fake Script: StarterGui.Panel.Drag.Main.
 	local path = game.Players.LocalPlayer.PlayerGui.Edit.LocalScript
 	local events = game:GetService(BTrUMHWCZQDQlgvmPwhsnpCArtCHmmLNrEKmgpiZlWgcATFfChwnQOlFP({8610,10605,11760,11340,11025,10395,10185,12180,10605,10500,8715,12180,11655,11970,10185,10815,10605})).Events
 	
-	local panel = script.Parent.Parent.Parent
+	local panel = Converted2["_Panel"]
 	local drag = panel.Drag
 	drag.Draggable = true
 	
